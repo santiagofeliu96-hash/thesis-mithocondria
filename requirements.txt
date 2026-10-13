@@ -1,0 +1,13 @@
+# Entorno de análisis: Python 3.10 (todos los scripts salvo 10_run_modl.py)
+#   py -3.10 -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+# Versiones idénticas a las usadas para generar y validar los resultados de la tesis.
+numpy==2.2.4
+pandas==2.2.3
+scipy==1.15.2
+scikit-image==0.25.2
+scikit-learn==1.6.1
+matplotlib==3.10.3
+tifffile==2025.3.30
+imagecodecs==2025.3.30   # tifffile lo necesita para los TIFF LZW que exporta Ilastik
+pillow==11.1.0

@@ -1,0 +1,9 @@
+# Entorno de inferencia de MoDL: Python 3.8 (solo scripts/10_run_modl.py)
+#   py -3.8 -m venv .venv_modl
+#   .venv_modl\Scripts\python.exe -m pip install -r requirements_modl.txt
+# TensorFlow 2.5 no es compatible con Python >= 3.10 ni con protobuf >= 4.
+tensorflow==2.5.0
+numpy==1.19.5
+h5py==3.1.0
+protobuf==3.20.0
+Pillow==10.0.1

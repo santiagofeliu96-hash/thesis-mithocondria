@@ -1,0 +1,5 @@
+conjunto,tool,individual,cluster,falso_positivo,total
+desarrollo,MoDL,275,131,130,536
+test,MoDL,102,29,23,154
+desarrollo,Omnipose,340,43,350,733
+test,Omnipose,119,16,54,189

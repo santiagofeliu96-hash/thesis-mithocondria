@@ -1,0 +1,5 @@
+tool,config,ap,error_rate,f1
+MoDL,thr=0.45,0.315434,1.010507,0.473761
+Omnipose,"cyto2_omni,mt=-2,ft=0.4",0.304389,0.996743,0.453807
+Cellpose-SAM,"ft=0.4,ct=0,niter=0",0.258522,0.950953,0.375556
+Ilastik,v2_2classes/1mito,0.156254,2.589155,0.256889

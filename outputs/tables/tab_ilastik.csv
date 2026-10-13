@@ -1,0 +1,5 @@
+config,px_f1,px_precision,px_recall,px_iou,n_frames
+v2_3classes/1mito,0.714654,0.753151,0.789677,0.579447,15
+2mito_3classes/1mito,0.695684,0.750130,0.763146,0.558170,15
+v2_2classes/1mito,0.687064,0.643174,0.878395,0.557396,15
+2mito_3classes/2mito,0.571418,0.441371,0.994995,0.439054,15

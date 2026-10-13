@@ -1,0 +1,985 @@
+{
+ "_doc": "Valores transcriptos de tesis_santiago_feliu.tex. Cada entrada: tabla de outputs/tables, clave de fila y valores esperados (como string, con los decimales con que aparecen en la tesis).",
+ "checks": [
+  {
+   "label": "tab:corpus-composicion",
+   "table": "tab_corpus_composicion.csv",
+   "key_col": "fotograma",
+   "cols": [
+    "instancias",
+    "individuales",
+    "clusters"
+   ],
+   "rows": {
+    "P6T10": [
+     "21",
+     "19",
+     "2"
+    ],
+    "P7T50": [
+     "32",
+     "31",
+     "1"
+    ],
+    "P7T164": [
+     "14",
+     "14",
+     "0"
+    ],
+    "P8T47": [
+     "35",
+     "33",
+     "2"
+    ],
+    "P8T121": [
+     "26",
+     "25",
+     "1"
+    ],
+    "P10T56": [
+     "46",
+     "37",
+     "9"
+    ],
+    "P10T93": [
+     "45",
+     "39",
+     "6"
+    ],
+    "P10T134": [
+     "38",
+     "31",
+     "7"
+    ],
+    "P24T23": [
+     "42",
+     "41",
+     "1"
+    ],
+    "P24T38": [
+     "41",
+     "40",
+     "1"
+    ],
+    "P24T61": [
+     "42",
+     "41",
+     "1"
+    ],
+    "P24T186": [
+     "11",
+     "10",
+     "1"
+    ],
+    "P25T20": [
+     "40",
+     "40",
+     "0"
+    ],
+    "P25T34": [
+     "40",
+     "39",
+     "1"
+    ],
+    "P25T111": [
+     "39",
+     "39",
+     "0"
+    ],
+    "P28T27": [
+     "48",
+     "43",
+     "5"
+    ],
+    "P28T177": [
+     "30",
+     "23",
+     "7"
+    ],
+    "P36T86": [
+     "79",
+     "70",
+     "9"
+    ],
+    "P36T118": [
+     "87",
+     "78",
+     "9"
+    ],
+    "P37T17": [
+     "67",
+     "55",
+     "12"
+    ],
+    "P37T100": [
+     "51",
+     "40",
+     "11"
+    ],
+    "21 fotogramas": [
+     "874",
+     "788",
+     "86"
+    ]
+   }
+  },
+  {
+   "label": "tab:acuerdo-interanotador",
+   "table": "tab_acuerdo_interanotador.csv",
+   "key_col": "fotograma",
+   "cols": [
+    "n1",
+    "n2",
+    "coincidentes",
+    "px_iou",
+    "ap50",
+    "f1_inst"
+   ],
+   "rows": {
+    "P10T93": [
+     "45",
+     "44",
+     "31",
+     "0.762",
+     "0.534",
+     "0.697"
+    ],
+    "P24T61": [
+     "42",
+     "45",
+     "33",
+     "0.695",
+     "0.611",
+     "0.759"
+    ],
+    "P25T34": [
+     "40",
+     "35",
+     "32",
+     "0.859",
+     "0.744",
+     "0.853"
+    ],
+    "Total / Promedio": [
+     "127",
+     "124",
+     "96",
+     "0.772",
+     "0.630",
+     "0.770"
+    ]
+   }
+  },
+  {
+   "label": "tab:res2-particion",
+   "table": "tab_res2_particion.csv",
+   "key_col": "pelicula",
+   "cols": [
+    "fotogramas",
+    "individuales",
+    "clusters",
+    "instancias"
+   ],
+   "rows": {
+    "P06": [
+     "1",
+     "19",
+     "2",
+     "21"
+    ],
+    "P07": [
+     "2",
+     "45",
+     "1",
+     "46"
+    ],
+    "P08": [
+     "2",
+     "58",
+     "3",
+     "61"
+    ],
+    "P10": [
+     "3",
+     "107",
+     "22",
+     "129"
+    ],
+    "P24": [
+     "4",
+     "132",
+     "4",
+     "136"
+    ],
+    "P25": [
+     "3",
+     "118",
+     "1",
+     "119"
+    ],
+    "P28": [
+     "2",
+     "66",
+     "12",
+     "78"
+    ],
+    "P37": [
+     "2",
+     "95",
+     "23",
+     "118"
+    ],
+    "P36": [
+     "2",
+     "148",
+     "18",
+     "166"
+    ],
+    "Desarrollo": [
+     "19",
+     "640",
+     "68",
+     "708"
+    ],
+    "Test": [
+     "2",
+     "148",
+     "18",
+     "166"
+    ]
+   }
+  },
+  {
+   "label": "tab:ilastik-validos",
+   "table": "tab_ilastik.csv",
+   "key_col": "config",
+   "cols": [
+    "px_f1",
+    "px_precision",
+    "px_recall",
+    "px_iou"
+   ],
+   "rows": {
+    "v2_3classes/1mito": [
+     "0.715",
+     "0.753",
+     "0.790",
+     "0.579"
+    ],
+    "2mito_3classes/1mito": [
+     "0.696",
+     "0.750",
+     "0.763",
+     "0.558"
+    ],
+    "v2_2classes/1mito": [
+     "0.687",
+     "0.643",
+     "0.878",
+     "0.557"
+    ],
+    "2mito_3classes/2mito": [
+     "0.571",
+     "0.441",
+     "0.995",
+     "0.439"
+    ]
+   }
+  },
+  {
+   "label": "tab:cellpose",
+   "table": "tab_cellpose.csv",
+   "key_col": "config",
+   "cols": [
+    "precision",
+    "recall",
+    "ap",
+    "error_rate"
+   ],
+   "rows": {
+    "ft=0.4,ct=0,niter=0": [
+     "0.484",
+     "0.361",
+     "0.259",
+     "0.951"
+    ],
+    "ft=0.4,ct=0,niter=4000": [
+     "0.483",
+     "0.359",
+     "0.257",
+     "0.953"
+    ],
+    "ft=0.4,ct=0,niter=1000": [
+     "0.483",
+     "0.359",
+     "0.257",
+     "0.953"
+    ],
+    "ft=0.4,ct=0,niter=2000": [
+     "0.483",
+     "0.359",
+     "0.257",
+     "0.953"
+    ],
+    "ft=0.6,ct=0,niter=1000": [
+     "0.389",
+     "0.386",
+     "0.243",
+     "1.116"
+    ],
+    "ft=0.6,ct=0,niter=2000": [
+     "0.389",
+     "0.386",
+     "0.243",
+     "1.116"
+    ],
+    "ft=0.6,ct=0,niter=4000": [
+     "0.389",
+     "0.386",
+     "0.243",
+     "1.116"
+    ],
+    "ft=0.6,ct=0,niter=0": [
+     "0.387",
+     "0.384",
+     "0.241",
+     "1.121"
+    ],
+    "ft=0.8,ct=0,niter=1000": [
+     "0.359",
+     "0.388",
+     "0.234",
+     "1.210"
+    ],
+    "ft=0.8,ct=0,niter=2000": [
+     "0.359",
+     "0.388",
+     "0.234",
+     "1.210"
+    ]
+   },
+   "nota": "La salida original de tablas_res1.py (sesión del 2026-09-29, registrada en el transcript) da exactamente los valores recalculados: las filas señaladas están mal transcriptas en la tesis. Las filas superiores y la configuración ganadora coinciden."
+  },
+  {
+   "label": "tab:omnipose",
+   "table": "tab_omnipose.csv",
+   "key_col": "config",
+   "cols": [
+    "precision",
+    "recall",
+    "ap",
+    "error_rate"
+   ],
+   "rows": {
+    "cyto2_omni,mt=-2,ft=0.4": [
+     "0.563",
+     "0.438",
+     "0.304",
+     "0.997"
+    ],
+    "cyto2_omni,mt=-2,ft=0.0": [
+     "0.546",
+     "0.438",
+     "0.299",
+     "1.024"
+    ],
+    "cyto2_omni,mt=-4,ft=0.0": [
+     "0.404",
+     "0.430",
+     "0.252",
+     "1.341"
+    ],
+    "cyto2_omni,mt=-1,ft=0.4": [
+     "0.503",
+     "0.337",
+     "0.233",
+     "1.102"
+    ],
+    "cyto2_omni,mt=-1,ft=0.0": [
+     "0.501",
+     "0.337",
+     "0.233",
+     "1.105"
+    ],
+    "bact_fluor_omni,mt=0,ft=0.4": [
+     "0.240",
+     "0.681",
+     "0.217",
+     "3.675"
+    ],
+    "bact_fluor_omni,mt=1,ft=0.4": [
+     "0.235",
+     "0.615",
+     "0.210",
+     "3.810"
+    ],
+    "bact_fluor_omni,mt=-1,ft=0.4": [
+     "0.228",
+     "0.695",
+     "0.208",
+     "3.890"
+    ],
+    "bact_fluor_omni,mt=-2,ft=0.4": [
+     "0.205",
+     "0.728",
+     "0.189",
+     "4.250"
+    ],
+    "bact_fluor_omni,mt=1,ft=0.0": [
+     "0.210",
+     "0.617",
+     "0.185",
+     "4.310"
+    ]
+   },
+   "nota": "La salida original de tablas_res1.py (sesión del 2026-09-29, registrada en el transcript) da exactamente los valores recalculados: las filas señaladas están mal transcriptas en la tesis. Las filas superiores y la configuración ganadora coinciden. Además, con los valores correctos la fila 'bact_fluor_omni, mt=1, ft=0.0' no está en el top 10 (sí 'bact_fluor_omni, mt=-4, ft=0.4', AP=0.200)."
+  },
+  {
+   "label": "tab:modl",
+   "table": "tab_modl.csv",
+   "key_col": "config",
+   "cols": [
+    "px_f1",
+    "px_precision",
+    "px_recall",
+    "px_iou"
+   ],
+   "rows": {
+    "thr=0.35": [
+     "0.757",
+     "0.739",
+     "0.827",
+     "0.628"
+    ],
+    "thr=0.30": [
+     "0.757",
+     "0.730",
+     "0.837",
+     "0.629"
+    ],
+    "thr=0.40": [
+     "0.756",
+     "0.746",
+     "0.816",
+     "0.627"
+    ],
+    "thr=0.25": [
+     "0.756",
+     "0.720",
+     "0.848",
+     "0.629"
+    ],
+    "thr=0.45": [
+     "0.755",
+     "0.754",
+     "0.804",
+     "0.625"
+    ],
+    "thr=0.20": [
+     "0.754",
+     "0.709",
+     "0.860",
+     "0.627"
+    ],
+    "thr=0.50": [
+     "0.751",
+     "0.763",
+     "0.789",
+     "0.621"
+    ],
+    "thr=0.15": [
+     "0.748",
+     "0.693",
+     "0.875",
+     "0.621"
+    ],
+    "thr=0.55": [
+     "0.746",
+     "0.772",
+     "0.772",
+     "0.614"
+    ],
+    "thr=0.60": [
+     "0.739",
+     "0.783",
+     "0.751",
+     "0.605"
+    ]
+   },
+   "nota": "La salida original de tablas_res1.py (sesión del 2026-09-29, registrada en el transcript) da exactamente los valores recalculados: las filas señaladas están mal transcriptas en la tesis. Las filas superiores y la configuración ganadora coinciden. El orden correcto del top 10 tras thr=0.20 es 0.50, 0.55, 0.15, 0.60."
+  },
+  {
+   "label": "texto MoDL: rango F1 [0.662, 0.757]",
+   "table": "tab_modl.csv",
+   "agg": {
+    "px_f1:min": "0.662",
+    "px_f1:max": "0.757"
+   }
+  },
+  {
+   "label": "tab:comp-pixel",
+   "table": "tab_comp_pixel.csv",
+   "key_col": "tool",
+   "cols": [
+    "config",
+    "px_f1",
+    "px_iou"
+   ],
+   "rows": {
+    "MoDL": [
+     "thr=0.35",
+     "0.757",
+     "0.628"
+    ],
+    "Ilastik": [
+     "v2_3classes/1mito",
+     "0.715",
+     "0.579"
+    ],
+    "Omnipose": [
+     "bact_fluor_omni,mt=1,ft=0.4",
+     "0.683",
+     "0.538"
+    ],
+    "Cellpose-SAM": [
+     "ft=0.8,ct=-4,niter=0",
+     "0.581",
+     "0.422"
+    ]
+   }
+  },
+  {
+   "label": "tab:comp-instancia",
+   "table": "tab_comp_instancia.csv",
+   "key_col": "tool",
+   "cols": [
+    "config",
+    "ap",
+    "error_rate"
+   ],
+   "rows": {
+    "MoDL": [
+     "thr=0.45",
+     "0.315",
+     "1.011"
+    ],
+    "Omnipose": [
+     "cyto2_omni,mt=-2,ft=0.4",
+     "0.304",
+     "0.997"
+    ],
+    "Cellpose-SAM": [
+     "ft=0.4,ct=0,niter=0",
+     "0.259",
+     "0.951"
+    ],
+    "Ilastik": [
+     "v2_2classes/1mito",
+     "0.156",
+     "2.589"
+    ]
+   }
+  },
+  {
+   "label": "tab:comp-por-imagen",
+   "table": "tab_comp_por_imagen.csv",
+   "key_col": "frame",
+   "cols": [
+    "Ilastik",
+    "Cellpose-SAM",
+    "Omnipose",
+    "MoDL"
+   ],
+   "rows": {
+    "P6T10": [
+     "0.140",
+     "0.259",
+     "0.519",
+     "0.320"
+    ],
+    "P7T50": [
+     "0.085",
+     "0.000",
+     "0.209",
+     "0.405"
+    ],
+    "P7T164": [
+     "0.031",
+     "0.200",
+     "0.136",
+     "0.220"
+    ],
+    "P8T47": [
+     "0.009",
+     "0.373",
+     "0.211",
+     "0.161"
+    ],
+    "P8T121": [
+     "0.000",
+     "0.115",
+     "0.038",
+     "0.364"
+    ],
+    "P10T56": [
+     "0.176",
+     "0.000",
+     "0.342",
+     "0.370"
+    ],
+    "P10T93": [
+     "0.333",
+     "0.038",
+     "0.293",
+     "0.481"
+    ],
+    "P10T134": [
+     "0.212",
+     "0.047",
+     "0.317",
+     "0.383"
+    ],
+    "P24T23": [
+     "0.217",
+     "0.288",
+     "0.397",
+     "0.327"
+    ],
+    "P24T38": [
+     "0.197",
+     "0.382",
+     "0.412",
+     "0.265"
+    ],
+    "P24T61": [
+     "0.091",
+     "0.333",
+     "0.305",
+     "0.288"
+    ],
+    "P24T186": [
+     "0.086",
+     "0.261",
+     "0.269",
+     "0.200"
+    ],
+    "P25T20": [
+     "0.188",
+     "0.458",
+     "0.365",
+     "0.362"
+    ],
+    "P25T34": [
+     "0.273",
+     "0.491",
+     "0.388",
+     "0.289"
+    ],
+    "P25T111": [
+     "0.308",
+     "0.633",
+     "0.364",
+     "0.298"
+    ],
+    "Promedio": [
+     "0.156",
+     "0.259",
+     "0.304",
+     "0.315"
+    ],
+    "Desv. estándar": [
+     "0.105",
+     "0.193",
+     "0.119",
+     "0.084"
+    ]
+   }
+  },
+  {
+   "label": "tab:res2-dist",
+   "table": "tab_res2_dist.csv",
+   "key_col": [
+    "conjunto",
+    "tool"
+   ],
+   "cols": [
+    "individual",
+    "cluster",
+    "falso_positivo",
+    "total"
+   ],
+   "rows": {
+    "desarrollo|MoDL": [
+     "275",
+     "131",
+     "130",
+     "536"
+    ],
+    "desarrollo|Omnipose": [
+     "340",
+     "43",
+     "350",
+     "733"
+    ],
+    "test|MoDL": [
+     "102",
+     "29",
+     "23",
+     "154"
+    ],
+    "test|Omnipose": [
+     "119",
+     "16",
+     "54",
+     "189"
+    ]
+   }
+  },
+  {
+   "label": "tab:res2-auc",
+   "table": "tab_res2_auc.csv",
+   "key_col": [
+    "tool",
+    "etapa",
+    "rank"
+   ],
+   "cols": [
+    "par",
+    "auc"
+   ],
+   "rows": {
+    "MoDL|1. Falso positivo|1": [
+     "snr + prob_mean",
+     "0.912"
+    ],
+    "MoDL|1. Falso positivo|2": [
+     "int_max + snr",
+     "0.912"
+    ],
+    "MoDL|1. Falso positivo|3": [
+     "contrast + prob_mean",
+     "0.909"
+    ],
+    "MoDL|2. Cluster|1": [
+     "area + n_endpoints",
+     "0.931"
+    ],
+    "MoDL|2. Cluster|2": [
+     "area + convexity",
+     "0.929"
+    ],
+    "MoDL|2. Cluster|3": [
+     "area + n_branch_points",
+     "0.927"
+    ],
+    "Omnipose|1. Falso positivo|1": [
+     "area + snr",
+     "0.838"
+    ],
+    "Omnipose|1. Falso positivo|2": [
+     "int_std + ratio_bg",
+     "0.830"
+    ],
+    "Omnipose|1. Falso positivo|3": [
+     "int_std + snr",
+     "0.829"
+    ],
+    "Omnipose|2. Cluster|1": [
+     "area + aspect_ratio",
+     "0.898"
+    ],
+    "Omnipose|2. Cluster|2": [
+     "area + n_endpoints",
+     "0.886"
+    ],
+    "Omnipose|2. Cluster|3": [
+     "area + convexity",
+     "0.885"
+    ]
+   }
+  },
+  {
+   "label": "tab:res2-operacion (desarrollo)",
+   "table": "tab_res2_operacion.csv",
+   "key_col": [
+    "tool",
+    "pi"
+   ],
+   "cols": [
+    "dev_precision",
+    "dev_recall",
+    "dev_individuales",
+    "dev_n_ind"
+   ],
+   "rows": {
+    "MoDL|0.99": [
+     "1.000",
+     "0.03",
+     "8",
+     "275"
+    ],
+    "MoDL|0.95": [
+     "0.954",
+     "0.23",
+     "62",
+     "275"
+    ],
+    "MoDL|0.90": [
+     "0.900",
+     "0.59",
+     "162",
+     "275"
+    ],
+    "MoDL|0.85": [
+     "0.851",
+     "0.77",
+     "211",
+     "275"
+    ],
+    "Omnipose|0.99": [
+     "1.000",
+     "0.04",
+     "12",
+     "340"
+    ],
+    "Omnipose|0.95": [
+     "0.952",
+     "0.18",
+     "60",
+     "340"
+    ],
+    "Omnipose|0.90": [
+     "0.900",
+     "0.29",
+     "99",
+     "340"
+    ],
+    "Omnipose|0.85": [
+     "0.854",
+     "0.48",
+     "164",
+     "340"
+    ]
+   }
+  },
+  {
+   "label": "tab:res2-validacion (test P36)",
+   "table": "tab_res2_operacion.csv",
+   "key_col": [
+    "tool",
+    "pi"
+   ],
+   "cols": [
+    "test_precision",
+    "test_recall",
+    "test_individuales",
+    "test_n_ind"
+   ],
+   "rows": {
+    "MoDL|0.99": [
+     "1.000",
+     "0.07",
+     "7",
+     "102"
+    ],
+    "MoDL|0.95": [
+     "0.873",
+     "0.47",
+     "48",
+     "102"
+    ],
+    "MoDL|0.90": [
+     "0.887",
+     "0.84",
+     "86",
+     "102"
+    ],
+    "MoDL|0.85": [
+     "0.839",
+     "0.92",
+     "94",
+     "102"
+    ],
+    "Omnipose|0.99": [
+     "1.000",
+     "0.03",
+     "3",
+     "119"
+    ],
+    "Omnipose|0.95": [
+     "0.860",
+     "0.31",
+     "37",
+     "119"
+    ],
+    "Omnipose|0.90": [
+     "0.860",
+     "0.41",
+     "49",
+     "119"
+    ],
+    "Omnipose|0.85": [
+     "0.782",
+     "0.66",
+     "79",
+     "119"
+    ]
+   }
+  },
+  {
+   "label": "texto/fig:res2-visualizacion: umbrales MoDL pi=0.90",
+   "table": "tab_res2_operacion.csv",
+   "key_col": [
+    "tool",
+    "pi"
+   ],
+   "cols": [
+    "t1",
+    "t2"
+   ],
+   "rows": {
+    "MoDL|0.90": [
+     "0.42",
+     "0.24"
+    ]
+   }
+  },
+  {
+   "label": "texto: desglose de las 154 máscaras de test (MoDL, pi=0.90)",
+   "table": "tab_res2_desglose_modl.csv",
+   "key_col": "grupo",
+   "cols": [
+    "individual",
+    "cluster",
+    "falso_positivo",
+    "total"
+   ],
+   "rows": {
+    "retenidas": [
+     "86",
+     "8",
+     "3",
+     "97"
+    ],
+    "descartadas_etapa1": [
+     "7",
+     "3",
+     "20",
+     "30"
+    ],
+    "descartadas_etapa2": [
+     "9",
+     "18",
+     "0",
+     "27"
+    ],
+    "total": [
+     "102",
+     "29",
+     "23",
+     "154"
+    ]
+   }
+  }
+ ]
+}

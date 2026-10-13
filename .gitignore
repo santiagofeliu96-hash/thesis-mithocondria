@@ -1,0 +1,33 @@
+# --- Entornos virtuales (se recrean con requirements*.txt) ---
+.venv/
+.venv_modl/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Modelo de MoDL (478 MB, > límite de GitHub): se descarga de Zenodo, ver README ---
+models/*.hdf5
+models/*.zip
+
+# --- Salidas regenerables y pesadas ---
+# Predicciones re-inferidas por 10_run_modl.py y 11_run_ilastik.py
+outputs/predictions/
+# (outputs/tables, outputs/figures y validation_report.md sí se versionan como referencia)
+
+# --- Proyectos de Ilastik: archivos temporales que genera al abrirlos ---
+*.ilp.lock
+*.ilp~
+
+# --- Sistema operativo / editores ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+*.swp

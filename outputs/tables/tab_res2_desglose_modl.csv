@@ -1,0 +1,5 @@
+grupo,individual,cluster,falso_positivo,total
+retenidas,86,8,3,97
+descartadas_etapa1,7,3,20,30
+descartadas_etapa2,9,18,0,27
+total,102,29,23,154

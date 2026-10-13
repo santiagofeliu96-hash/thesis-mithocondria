@@ -1,0 +1,3 @@
+embedding_00000.zarr	ImageFV10006.50010_C002T093.tif
+embedding_00001.zarr	ImageFV10006.50024_C002T061.tif
+embedding_00002.zarr	ImageFV10006.50025_C002T034.tif

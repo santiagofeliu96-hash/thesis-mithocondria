@@ -1,0 +1,5 @@
+tool,config,px_f1,px_iou
+MoDL,thr=0.35,0.756801,0.628293
+Ilastik,v2_3classes/1mito,0.714654,0.579447
+Omnipose,"bact_fluor_omni,mt=1,ft=0.4",0.682553,0.538051
+Cellpose-SAM,"ft=0.8,ct=-4,niter=0",0.580738,0.422424

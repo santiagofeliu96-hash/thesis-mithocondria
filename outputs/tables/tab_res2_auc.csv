@@ -1,0 +1,13 @@
+tool,etapa,rank,par,auc
+MoDL,1. Falso positivo,1,snr + prob_mean,0.912028
+MoDL,1. Falso positivo,2,int_max + snr,0.911721
+MoDL,1. Falso positivo,3,contrast + prob_mean,0.908733
+MoDL,2. Cluster,1,area + n_endpoints,0.930992
+MoDL,2. Cluster,2,area + convexity,0.928882
+MoDL,2. Cluster,3,area + n_branch_points,0.926766
+Omnipose,1. Falso positivo,1,area + snr,0.837840
+Omnipose,1. Falso positivo,2,int_std + ratio_bg,0.829652
+Omnipose,1. Falso positivo,3,int_std + snr,0.828910
+Omnipose,2. Cluster,1,area + aspect_ratio,0.897680
+Omnipose,2. Cluster,2,area + n_endpoints,0.885660
+Omnipose,2. Cluster,3,area + convexity,0.885223
